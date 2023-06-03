@@ -17,9 +17,7 @@ class CustomButton extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.all(18),
       child: ElevatedButton(
-        onPressed: () {
-          onPressed;
-        },
+        onPressed: onPressed,
         child: Text(
           text,
           style: TextStyle(fontSize: 17),
